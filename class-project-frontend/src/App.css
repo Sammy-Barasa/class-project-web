@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  background-color: rgb(207, 212, 212);
+}
+.main {
+  display: flex;
+  flex: 1;
+}
+.main-left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 2px solid rgb(207, 205, 205);
+  margin-left: 6px;
+  margin-bottom: 6px;
+  
+}
+.main-center {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  background-color: rgb(252, 252, 252);
+  border-radius: 8px;
+  border: 2px solid rgb(207, 205, 205);
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 6px;
+  height: 80vh;
+  overflow: auto;
+}
+.main-right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  background-color: rgb(252, 252, 252);
+  border-radius: 8px;
+  border: 2px solid rgb(207, 205, 205);
+  height: 60vh;
+  margin-right: 6px;
+}
+
+
+/* Navigation CSS */
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 2px solid rgb(207, 205, 205);
+    margin-bottom: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
+.nav::after {
+  border-top: 20px solid rgb(10, 204, 10);
+}
+.nav-header{
+    display: flex;
+    flex-direction: column;
+}
+.nav-link{
+    text-decoration: none;
+}
+.nav-link :hover{
+    border: solid;
+    padding: 05%;
+    background-color: cornflowerblue;
+    text-decoration: none;
+}
+/* Navigation CSS */
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
